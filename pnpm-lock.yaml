@@ -34,8 +34,8 @@ importers:
         specifier: ^7.3.2
         version: 7.3.2(@types/node@20.11.24)
       '@sindresorhus/tsconfig':
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^7.0.0
+        version: 7.0.0
       '@xeol/bumpgen-core':
         specifier: workspace:*
         version: link:../../packages/bumpgen-core
@@ -1252,9 +1252,9 @@ packages:
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
 
-  '@sindresorhus/tsconfig@3.0.1':
-    resolution: {integrity: sha512-0/gtPNTY3++0J2BZM5nHHULg0BIMw886gqdn8vWN+Av6bgF5ZU2qIcHubAn+Z9KNvJhO8WFE+9kDOU3n6OcKtA==}
-    engines: {node: '>=14'}
+  '@sindresorhus/tsconfig@7.0.0':
+    resolution: {integrity: sha512-i5K04hLAP44Af16zmDjG07E1NHuDgCM07SJAT4gY0LZSRrWYzwt4qkLem6TIbIVh0k51RkN2bF+lP+lM5eC9fw==}
+    engines: {node: '>=18'}
 
   '@sinonjs/commons@3.0.1':
     resolution: {integrity: sha512-K3mCHKQ9sVh8o1C9cxkwxaOmXoAMlDxC1mYyHrjqOWEcBjYr76t96zL2zlj5dUGZ3HSw240X1qgH3Mjf1yJWpQ==}
@@ -5368,7 +5368,7 @@ snapshots:
 
   '@sindresorhus/is@5.6.0': {}
 
-  '@sindresorhus/tsconfig@3.0.1': {}
+  '@sindresorhus/tsconfig@7.0.0': {}
 
   '@sinonjs/commons@3.0.1':
     dependencies:
