@@ -17,7 +17,7 @@
     "graphology-dag": "^0.4.1",
     "graphology-operators": "^1.6.0",
     "graphology-traversal": "^0.3.1",
-    "npm-check-updates": "^16.14.18",
+    "npm-check-updates": "^17.1.14",
     "openai": "^4.30.0",
     "radash": "^12.1.0",
     "semver": "^7.6.0",

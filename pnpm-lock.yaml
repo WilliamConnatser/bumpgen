@@ -155,8 +155,8 @@ importers:
         specifier: ^0.3.1
         version: 0.3.1(graphology-types@0.24.7)
       npm-check-updates:
-        specifier: ^16.14.18
-        version: 16.14.18
+        specifier: ^17.1.14
+        version: 17.1.14
       openai:
         specifier: ^4.30.0
         version: 4.33.0(encoding@0.1.13)
@@ -3388,6 +3388,11 @@ packages:
   npm-check-updates@16.14.18:
     resolution: {integrity: sha512-9iaRe9ohx9ykdbLjPRIYcq1A0RkrPYUx9HmQK1JIXhfxtJCNE/+497H9Z4PGH6GWRALbz5KF+1iZoySK2uSEpQ==}
     engines: {node: '>=14.14'}
+    hasBin: true
+
+  npm-check-updates@17.1.14:
+    resolution: {integrity: sha512-dr4bXIxETubLI1tFGeock5hN8yVjahvaVpx+lPO4/O2md3zJuxB7FgH3MIoTvQSCgsgkIRpe0skti01IEAA5tA==}
+    engines: {node: ^18.18.0 || >=20.0.0, npm: '>=8.12.1'}
     hasBin: true
 
   npm-install-checks@6.3.0:
@@ -8002,6 +8007,8 @@ snapshots:
     transitivePeerDependencies:
       - bluebird
       - supports-color
+
+  npm-check-updates@17.1.14: {}
 
   npm-install-checks@6.3.0:
     dependencies:
