@@ -24,7 +24,7 @@
     "express": "^4.19.2",
     "graphology": "^0.25.4",
     "graphology-dag": "^0.4.1",
-    "ink": "^4.4.1",
+    "ink": "^5.1.0",
     "ink-big-text": "^2.0.0",
     "ink-spinner": "^5.0.0",
     "is-unicode-supported": "^2.0.0",
