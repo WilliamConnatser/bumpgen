@@ -24,7 +24,7 @@
     "simple-git": "^3.24.0",
     "serialize-error": "^8.1.0",
     "ts-morph": "^25.0.1",
-    "uuid": "^9.0.1",
+    "uuid": "^11.1.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
