@@ -19,7 +19,7 @@
     "@xeol/bumpgen-core": "workspace:*",
     "@sindresorhus/tsconfig": "^3.0.1",
     "cfonts": "^3.2.0",
-    "cli-spinners": "^2.9.2",
+    "cli-spinners": "^3.2.0",
     "date-fns": "^4.1.0",
     "express": "^4.19.2",
     "graphology": "^0.25.4",
