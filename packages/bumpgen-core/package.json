@@ -23,7 +23,7 @@
     "semver": "^7.6.0",
     "simple-git": "^3.24.0",
     "serialize-error": "^8.1.0",
-    "ts-morph": "^22.0.0",
+    "ts-morph": "^25.0.1",
     "uuid": "^9.0.1",
     "zod": "^3.22.4"
   },
