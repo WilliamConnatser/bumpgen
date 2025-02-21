@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@commander-js/extra-typings": "^13.1.0",
-    "@inquirer/prompts": "^5.0.2",
+    "@inquirer/prompts": "^7.3.2",
     "@xeol/bumpgen-core": "workspace:*",
     "@sindresorhus/tsconfig": "^3.0.1",
     "cfonts": "^3.2.0",
