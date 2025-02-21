@@ -28,7 +28,7 @@ const command = program
   .addOption(
     new Option("-m, --model <model>", "the model to use for the upgrade")
       .choices(SupportedModels)
-      .default("gpt-4-turbo-preview" as const),
+      .default("o1-preview" as const),
   )
   .option(
     "-t, --token <token>",
@@ -102,6 +102,8 @@ if (!pkg) {
       console.log("All packages are on their latest major version!");
       process.exit(0);
     }
+
+    console.log("Using model:", model);
 
     const choice = await select({
       message: "Select a package to upgrade (major version changes only)",

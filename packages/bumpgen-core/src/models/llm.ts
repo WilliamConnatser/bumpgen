@@ -3,7 +3,7 @@ import { z } from "zod";
 import type { DependencyGraphNode } from "./graph/dependency";
 import type { PlanGraphNode } from "./graph/plan";
 
-export const SupportedModels = ["gpt-4-turbo-preview"] as const;
+export const SupportedModels = ["gpt-4-turbo-preview", "o1-preview"] as const;
 
 export type SupportedModel = (typeof SupportedModels)[number];
 
