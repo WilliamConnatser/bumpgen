@@ -3,7 +3,7 @@ import { unique } from "radash";
 
 import type { DependencyGraphNode } from "../../models/graph/dependency";
 import type { PlanGraphNode } from "../../models/graph/plan";
-import type { LLMContext } from "../../models/llm";
+import type { LLMContext, SupportedModel } from "../../models/llm";
 import type { LLMService } from "./types";
 import { ReplacementsResultSchema } from "../../models/llm";
 
@@ -212,7 +212,7 @@ export const fitToContext = (
   );
 };
 
-export const createOpenAIService = (openai: OpenAI) => {
+export const createOpenAIService = (openai: OpenAI, model: SupportedModel) => {
   return {
     codeplan: {
       getReplacements: async (context: LLMContext, temperature: number) => {
@@ -268,7 +268,7 @@ export const createOpenAIService = (openai: OpenAI) => {
         console.log("OpenAI Messages:\n", messages);
 
         const response = await openai.chat.completions.create({
-          model: "gpt-4-turbo-preview",
+          model,
           messages,
           temperature,
           tools: [
