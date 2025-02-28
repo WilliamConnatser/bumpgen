@@ -567,7 +567,7 @@ export const makeBumpgen = ({
   language?: SupportedLanguage;
   projectRoot?: string;
 }) => {
-  model = model ?? "gpt-4-turbo-preview";
+  model = model ?? "o1-preview";
   language = language ?? "typescript";
   projectRoot = projectRoot ? path.resolve(projectRoot) : process.cwd();
   const languageService = injectLanguageService(language)();
