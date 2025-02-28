@@ -5,9 +5,9 @@ import type { PlanGraphNode } from "./graph/plan";
 
 export const SupportedModels = [
   "gpt-4o",
-  "o1-preview",
   "o1",
-  "o1-mini",
+  "o1-preview",
+  "gpt-4.5-preview",
   "o3-mini",
 ] as const;
 
